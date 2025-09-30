@@ -114,10 +114,10 @@ const VAR_ENUMS = {
   season: ['봄','여름','가을','겨울'],
 }
 const GRID = {
-  totalDays: [2,3,4,5,6],
-  newsCount: [10,20,30,40,50,60,80],
-  blogCount: [100,200,300,400,500,700],
-  budget: steps(100, 2000, 100), // 백만원 단위 (1억~20억)
+  totalDays: [2,3,4,5,6,7],
+  newsCount: [10,20,30,40,50,60,80,100],
+  blogCount: [100,200,300,400,500,700,1000],
+  budget: steps(50, 3000, 50), // 0.5억~30억
 }
 function steps(start, end, step) {
   const arr=[]; for (let v=start; v<=end; v+=step) arr.push(v); return arr;
